@@ -25,7 +25,7 @@ class Follow(models.Model):
 
     def __str__(self):
         return f'{self.user.username} → {self.following.username}'
-  
+
 
 class Group(models.Model):
     title = models.CharField(
