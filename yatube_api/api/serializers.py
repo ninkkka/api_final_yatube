@@ -5,6 +5,8 @@ from django.contrib.auth import get_user_model
 
 from posts.models import Comment, Post, Follow
 
+User = get_user_model()
+
 
 class PostSerializer(serializers.ModelSerializer):
     author = SlugRelatedField(slug_field='username', read_only=True)

@@ -10,7 +10,8 @@ class FollowViewSet(
 ):
     """
     Эндпоинт /follow/:
-    GET   — список подписок текущего пользователя (search по following__username)
+    GET   — список подписок текущего пользователя
+    (search по following__username)
     POST  — подписаться на пользователя
     """
     serializer_class = FollowSerializer
