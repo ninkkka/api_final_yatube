@@ -9,7 +9,7 @@
 - Подписки на авторов.
 
 **Установка и запуск:**
-```bash
+`py``bash
 git clone https://github.com/ваш_ник/api_final_yatube.git
 cd api_final_yatube/api_final_yatube
 python -m venv venv
